@@ -66,9 +66,9 @@ public class StayPage {
 	}
 	
 	public void stay_Details() throws IOException {
-		 if (location == null) {
+		 /*if (location == null) {
 			 LoadLocationFromJson();  // Ensure location is loaded before using it
-	        }
+	        }*/
 		stayDropDown.click();
 		stayDropDown.clear();
 		stayDropDown.sendKeys(location); 
