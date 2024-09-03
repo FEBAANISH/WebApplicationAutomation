@@ -2,47 +2,47 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-03T02:49:27 IST" name="Suite" finished-at="2024-09-03T02:49:37 IST" duration-ms="9284">
+  <suite started-at="2024-09-03T16:05:10 IST" name="Suite" finished-at="2024-09-03T16:05:24 IST" duration-ms="14600">
     <groups>
     </groups>
-    <test started-at="2024-09-03T02:49:27 IST" name="Test" finished-at="2024-09-03T02:49:37 IST" duration-ms="9284">
+    <test started-at="2024-09-03T16:05:10 IST" name="Test" finished-at="2024-09-03T16:05:24 IST" duration-ms="14600">
       <class name="Testcases.StayTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T02:49:27 IST" name="setup" finished-at="2024-09-03T02:49:30 IST" duration-ms="2737" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T16:05:10 IST" name="setup" finished-at="2024-09-03T16:05:17 IST" duration-ms="7388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPage()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T02:49:30 IST" name="setupPage" finished-at="2024-09-03T02:49:30 IST" duration-ms="296" status="PASS">
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T16:05:17 IST" name="setupPage" finished-at="2024-09-03T16:05:18 IST" duration-ms="466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPage -->
-        <test-method signature="StayButtonOnClick()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T02:49:30 IST" name="StayButtonOnClick" finished-at="2024-09-03T02:49:35 IST" duration-ms="4320" status="PASS">
+        <test-method signature="StayButtonOnClick()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T16:05:18 IST" name="StayButtonOnClick" finished-at="2024-09-03T16:05:22 IST" duration-ms="4196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StayButtonOnClick -->
-        <test-method is-config="true" signature="setupPage()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T02:49:35 IST" name="setupPage" finished-at="2024-09-03T02:49:35 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPage -->
-        <test-method signature="StayDetails()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T02:49:35 IST" name="StayDetails" finished-at="2024-09-03T02:49:36 IST" duration-ms="1225" status="PASS">
+        <test-method signature="StayDetails()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T16:05:22 IST" name="StayDetails" finished-at="2024-09-03T16:05:24 IST" duration-ms="2027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StayDetails -->
-        <test-method is-config="true" signature="setupPage()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T02:49:36 IST" name="setupPage" finished-at="2024-09-03T02:49:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T16:05:22 IST" name="setupPage" finished-at="2024-09-03T16:05:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPage -->
-        <test-method signature="choose_Location()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T02:49:36 IST" name="choose_Location" finished-at="2024-09-03T02:49:37 IST" duration-ms="630" status="PASS">
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T16:05:24 IST" name="setupPage" finished-at="2024-09-03T16:05:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="choose_Location()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T16:05:24 IST" name="choose_Location" finished-at="2024-09-03T16:05:24 IST" duration-ms="427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choose_Location -->
-        <test-method is-config="true" signature="setupPage()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T02:49:37 IST" name="setupPage" finished-at="2024-09-03T02:49:37 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPage -->
-        <test-method signature="testStayPage()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T02:49:37 IST" name="testStayPage" finished-at="2024-09-03T02:49:37 IST" duration-ms="5" status="PASS">
+        <test-method signature="testStayPage()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T16:05:24 IST" name="testStayPage" finished-at="2024-09-03T16:05:24 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStayPage -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:Testcases.StayTest@61526469]" started-at="2024-09-03T16:05:24 IST" name="setupPage" finished-at="2024-09-03T16:05:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
       </class> <!-- Testcases.StayTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
