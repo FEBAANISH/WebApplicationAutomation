@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
-
+import org.testng.annotations.BeforeSuite;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -21,7 +21,7 @@ public class BaseTest {
     public WebDriver driver;
     protected static final Logger logger = LogManager.getLogger(BaseTest.class);
 
-    @BeforeMethod
+    @BeforeSuite
     public void setup() throws IOException {
 
         FileInputStream fis = null;

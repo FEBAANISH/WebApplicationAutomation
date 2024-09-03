@@ -6,8 +6,10 @@
       <class name="Testcases.StayTest">
         <methods>
           <include name="setupPage"/>
+          <include name="StayDetails"/>
+          <include name="choose_Location"/>
+          <include name="StayButtonOnClick"/>
           <include name="setup"/>
-          <include name="testStayPage"/>
         </methods>
       </class> <!-- Testcases.StayTest -->
     </classes>

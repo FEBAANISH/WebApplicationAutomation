@@ -37,13 +37,13 @@ public class StayTest extends BaseTest {
 		s.stayButtonClick();
 	}
 	
-	@Test
+	@Test(priority=0)
 	public void StayDetails() throws IOException
 	{
 		s.stay_Details();
 	}
 	
-	@Test
+	@Test(priority=1)
 	  public void testStayPage()
 	  {
 	 String location = s.getLocation();
@@ -51,9 +51,15 @@ public class StayTest extends BaseTest {
     Assert.assertEquals(location, "ooty", "Location should be 'ooty'");
 	  }
 
-	@Test
+	@Test(priority=2)
 	public void choose_Location()
 	{
 		s.finding_Matching_Location();
+	}
+	
+	@Test(priority=3)
+	public void selectCheckinDate()
+	{
+		s.checkInTime();
 	}
 }

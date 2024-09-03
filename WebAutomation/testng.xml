@@ -5,6 +5,7 @@
 		<classes>
 			
 			<class name="Testcases.StayTest" />
+			
 		</classes>
 	</test> <!--
 	Test -->
